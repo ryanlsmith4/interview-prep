@@ -21,7 +21,7 @@ def is_anagram(string1, string2):
 one = 'woi'
 three = [1,2,5,3]
 two = 'iwo'
-print(is_anagram(one, two))
+print(is_anagram(one, two)) 
 
 
 # Given an integer array, find a maximum product of a triplet in array

@@ -1,3 +1,4 @@
+
 def node(self, next, data):
     self.next = None
     self.data = None

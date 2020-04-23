@@ -4,6 +4,7 @@ TEST2 = "Apple"
 
 TEST3 = 'madam'
 
+
 def is_palindrome(str):
     if str == '':
         return True

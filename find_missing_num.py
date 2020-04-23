@@ -7,7 +7,7 @@ LIST3 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 LIST4 = [2, 3, 4, 5, 6, 7, 8, 9]
 
 def find_missing_number(list_numbers):
-    numbers_needed = [1,2,3,4,5,6,7,8,9,10]
+    numbers_needed = [1,2,3,4,5,6,7,8,9,10] 
     for i, j in zip(list_numbers, numbers_needed):
         print(i,j)
         if i != j:

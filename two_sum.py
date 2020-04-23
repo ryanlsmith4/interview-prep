@@ -8,7 +8,6 @@ def two_sum_b(nums: list, total: int) -> [int]:
         continue
   raise ValueError('No two Sum')
       
-
 def two_sum(nums: list, total: int) -> [int]:
   previous_dict = {}
 

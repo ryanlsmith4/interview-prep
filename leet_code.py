@@ -1,5 +1,6 @@
 # leet_code.py
 
+
 class Solution(object):
 
     def twoSum(self, nums, target):

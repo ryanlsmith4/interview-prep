@@ -25,4 +25,4 @@ def duplicate_items(list_numbers):
     return dups__list
     
 
-print(duplicate_items(ARRAY))
+print(duplicate_items(ARRAY)) 
