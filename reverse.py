@@ -1,6 +1,6 @@
 
 
-# Copied from the LL from another class but rotate method is on 31
+# Copied from the LL from another class but rotate method is on 60
 
 
 class Node():
