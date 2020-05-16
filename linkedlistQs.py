@@ -1,5 +1,3 @@
-
-
 # Copied from the LL from another class but rotate method is on 31
 
 
@@ -9,8 +7,8 @@ class Node():
         self.next = None
         self.data = data
 
-    def update(self, new_data):
-        self.data = new_data
+    def update(self, newData):
+        self.data = newData
 
     def __repr__(self):
         """Return a string representation of this node."""
@@ -71,9 +69,27 @@ class LinkedList():
         self.tail = previous
         self.tail.next = None
 
+    def findIndexOfNode(self, find):
+            if(find > self.size-1):
+                print("Doesn't exist in LinkedList")
+                return None
+
+            index = self.head
+            for _ in range(find):
+                index = index.next
+
+            return index
+
+    def findMiddle(self):
+            if self.size % 2 == 0:
+                raise ValueError('List size not odd')
+            return self.findIndexOfNode(self.size//2)
+
+
 
 if __name__ == '__main__':
     ll = LinkedList([11,22,33,44,55,66,77])
     print(ll)
-    ll.rotate(22)
+    ll.rotate(16)
     print(ll)
+    print(ll.findMiddle())
